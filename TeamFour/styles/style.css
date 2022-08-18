@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* here */
+body {
+    width: 1440px;
+    height: 690px;
+ 
+}
+
+/* styling the container */
+.container{
+    display: flex;
+    margin: 24px 0px 0px 138px;
+    
+}
+
+/* styling the developer image */
+.image {
+    width: 688px;
+    height: 642px;
+}
+
+/* styling the text container */
+.text-container {
+    margin-top: 136px;
+    margin-bottom: 146px;
+
+}
+
+
+/* styling the heading */
+.header h2{
+    width: 495px;
+    height: 122px;
+    line-height: 60.94px;
+    font-size: 52px;
+    margin-right: 119px;
+    font-family: 'Roboto' , 'sans-serif';
+    font-weight: 400;
+    color: #060505;
+    margin-bottom: 29px;
+}
+
+
+/* styling the paragraph */
+.paragraph p{
+    width: 516px;
+    height: 115px;
+    margin-right: 98px;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-family: 'Roboto' , 'sans-serif';
+    font-weight: 400;
+    color: #000000;  
+    margin-bottom: 30px;
+}
+
+
+/* styling the free try button */ 
+.button-content {
+    border-radius: 20px; 
+    border: none;
+    width: 130px;
+    height: 44px;
+    text-align: center;
+    color: white;
+    background-color: #4A71D4;
+    padding: 8px 0px;
+    font-family: 'Actor', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 137px;
+}
+
