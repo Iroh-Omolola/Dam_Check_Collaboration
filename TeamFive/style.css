@@ -1,0 +1,181 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+
+body {
+  font-family: "roboto";
+  text-align: center;
+  background-image: url(./Rectangle\ 21\ \(1\).png);
+
+}
+section{
+  padding: 20px;
+}
+
+/*header*/
+header {
+  text-align: center;
+  margin: auto;
+}
+header h1 {
+  width: 559px;
+ /* height: 122px
+  left: 300px;*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  margin: auto;
+}
+
+header p {
+  margin: auto;
+  width: 992px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  padding: 20px 0;
+}
+
+/*items container*/
+.items_container{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 30px;
+  justify-content:center;
+  
+}
+/*customization styling*/
+.div-cont {
+  width: 300px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.customization-img{
+  width: 114px;
+  height: 108px;
+}
+
+.customization-txt {
+  color: #40a456;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+/*cheap bills styling*/
+
+.cheap_bills {
+  width: 300px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  text-align: left;
+}
+.text {
+  font-size: 15px;
+  color: #000000;
+  text-align:left;
+}
+.title {
+  font-size: 20px;
+  color: #e172b5;
+  padding: 10px;
+}
+
+/*bigger reward styling*/
+
+.bigger-cont{
+  width: 300px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 400px;
+  padding-left: 5px; 
+  text-align: left;  
+}
+
+.BIGGER{
+  width: 114x;
+  height: 108px;
+}
+
+.BIGGER-REWARD{
+  color: #40A456;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.lorems{
+  font-size: 15px;
+  color: #000000;
+}
+
+/*speed styling*/
+
+.speed{
+  color: #E95F5F;
+  font-size: 20px;
+  padding: 10px;
+}
+.speed-pic{
+  width: 114x;
+  height: 108px;
+}
+
+
+
+.spiid{
+  font-size: 15px;
+  color: #000000;
+} 
+
+/*cloud storage styling*/
+
+  .cloud-storage{
+    color:#D9B268;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .cloud-container {
+    width: 300px;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+    text-align: left;
+  }
+  
+
+
+/*fast network styling*/
+
+.Fast_Network {
+  color: #0d53bd;
+  font-size: 20px;
+  padding: 10px;
+}
+.Fast_container {
+  width: 300px;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+  text-align: left;
+}
+
+.Fast_text {
+  font-size: 15px;
+  color: black;
+}
